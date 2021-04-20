@@ -61,5 +61,7 @@
     background: gold;
 }
 
-
+#french-flag:hover {
+    opacity: 10;
+}
 
