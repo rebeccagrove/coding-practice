@@ -28,3 +28,38 @@
     background: red;
 }
 
+#german-flag {
+    width: 375px;
+    height: 250px;
+    margin: 10px;
+}
+
+#black {
+    width: 375px;
+    height: 83.3px;
+    position: absolute;
+    top: 300px;
+    left: 0px;
+    background: black;
+}
+
+#red-german {
+    width: 375px;
+    height: 83.3px;
+    position: absolute;
+    top:383px;
+    left:0px;
+    background: red;
+}
+
+#gold {
+    width: 375px;
+    height: 83.3px;
+    position: absolute;
+    top:466px;
+    left:0px;
+    background: gold;
+}
+
+
+
