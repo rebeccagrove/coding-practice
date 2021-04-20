@@ -1,0 +1,20 @@
+#french-flag {
+    width: 99px;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    border: 1px solid #bbb;
+    margin: 10px;
+    position: relative;
+    background: #fff;
+}
+
+#french-flag:before {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    top: 0;
+    background: #00f;
+    width: 33%;
+    z-index: 4;
