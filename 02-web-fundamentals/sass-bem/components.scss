@@ -1,4 +1,4 @@
-nav {
+.navigation {
     height: 10vh;
     padding: 0 40px;
     background-color: $color-primary;
@@ -21,24 +21,46 @@ nav {
     border-radius: 10px;
     text-align: center;
     color: $color-white;
+
+    &--form {
+        width: 100%;
+        border: none;
+        background-color: $color-primary-light;
+    }
 }
 
-div {
+.intro {
     text-align: center;
 
-    h2 {
+    &__heading {
         color: $color-primary;
         font-size: 50px;
         margin: 20px 0;
     }
 
-    h3 {
+    &__sub-heading {
         font-family: $font-display;
         font-size: 25px;
         margin: 20px 0px;
     }
 
-    a {
+    &__button {
         margin: 0 auto;
+    }
+}
+
+.wave {
+    vertical-align: top;
+}
+
+.form {
+    background-color: $color-white;
+    padding: 20px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+
+    &__input {
+        margin-bottom: 20px;
     }
 }

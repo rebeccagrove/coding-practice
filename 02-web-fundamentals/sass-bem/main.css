@@ -12,7 +12,7 @@ a:visited {
   text-decoration: none;
 }
 
-nav {
+.navigation {
   height: 10vh;
   padding: 0 40px;
   background-color: #28527a;
@@ -36,26 +36,54 @@ nav {
   text-align: center;
   color: #fafafa;
 }
+.button--form {
+  width: 100%;
+  border: none;
+  background-color: #55a5f0;
+}
 
-div {
+.intro {
   text-align: center;
 }
-div h2 {
+.intro__heading {
   color: #28527a;
   font-size: 50px;
   margin: 20px 0;
 }
-div h3 {
+.intro__sub-heading {
   font-family: "Dancing", cursive;
   font-size: 25px;
   margin: 20px 0px;
 }
-div a {
+.intro__button {
   margin: 0 auto;
 }
 
-header {
-  height: 90vh;
+.wave {
+  vertical-align: top;
+}
+
+.form {
+  background-color: #fafafa;
+  padding: 20px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+}
+.form__input {
+  margin-bottom: 20px;
+}
+
+.header {
+  height: 70vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main {
+  height: 50vh;
+  background-color: #28527a;
   display: flex;
   justify-content: center;
   align-items: center;
