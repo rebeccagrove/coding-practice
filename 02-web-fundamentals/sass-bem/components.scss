@@ -27,6 +27,12 @@
         border: none;
         background-color: $color-primary-light;
     }
+
+    &--outro {
+        background-color: transparent;
+        border: 2px solid $color-primary;
+        color: $color-primary;
+    }
 }
 
 .intro {
@@ -62,5 +68,34 @@
 
     &__input {
         margin-bottom: 20px;
+    }
+}
+
+.outro-container {
+    height: 30vh;
+    margin: 20px;
+}
+
+.outro {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    &__thanks {
+        margin-bottom: 20px;
+        font-family: $font-display;
+    }
+}
+
+.footer {
+    height: 10vh;
+    background-color: $color-primary;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+
+    &__footer-text {
+        color: $color-white;
     }
 }

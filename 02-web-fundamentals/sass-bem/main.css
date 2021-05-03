@@ -41,6 +41,11 @@ a:visited {
   border: none;
   background-color: #55a5f0;
 }
+.button--outro {
+  background-color: transparent;
+  border: 2px solid #28527a;
+  color: #28527a;
+}
 
 .intro {
   text-align: center;
@@ -72,6 +77,33 @@ a:visited {
 }
 .form__input {
   margin-bottom: 20px;
+}
+
+.outro-container {
+  height: 30vh;
+  margin: 20px;
+}
+
+.outro {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.outro__thanks {
+  margin-bottom: 20px;
+  font-family: "Dancing", cursive;
+}
+
+.footer {
+  height: 10vh;
+  background-color: #28527a;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+.footer__footer-text {
+  color: #fafafa;
 }
 
 .header {
