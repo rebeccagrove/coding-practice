@@ -36,3 +36,26 @@ nav {
   text-align: center;
   color: #fafafa;
 }
+
+header {
+  height: 90vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+header div {
+  text-align: center;
+}
+header div h2 {
+  color: #28527a;
+  font-size: 50px;
+  margin: 20px 0;
+}
+header div h3 {
+  font-family: "Dancing", cursive;
+  font-size: 25px;
+  margin: 20px 0px;
+}
+header div a {
+  margin: 0 auto;
+}
