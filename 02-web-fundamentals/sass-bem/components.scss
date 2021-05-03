@@ -1,0 +1,44 @@
+nav {
+    height: 10vh;
+    padding: 0 40px;
+    background-color: $color-primary;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-family: $font-display;
+    font-size: 20px;
+    color: $color-white;
+}
+
+.button {
+    display: block;
+    width: 100px;
+    background-color: $color-secondary;
+    padding: 10px 20px;
+    border-radius: 10px;
+    text-align: center;
+    color: $color-white;
+}
+
+div {
+    text-align: center;
+
+    h2 {
+        color: $color-primary;
+        font-size: 50px;
+        margin: 20px 0;
+    }
+
+    h3 {
+        font-family: $font-display;
+        font-size: 25px;
+        margin: 20px 0px;
+    }
+
+    a {
+        margin: 0 auto;
+    }
+}
